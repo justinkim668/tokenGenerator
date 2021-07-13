@@ -16,7 +16,7 @@ function generateHTMLSquares(){
   for (let i = 0; i < numberOfSquares; i++){
     squaresHTML +=
     '<div class = "board-square">' +
-    '<h1 id = "token-number" class = "text-center">'+getRandom(0,10)+'</h1>' +
+    '<h1 class = "text-center">'+getRandom(0,10)+'</h1>' +
     '</div>';
   }
   const tokenElement = document.getElementById('token-field');
