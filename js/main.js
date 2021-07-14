@@ -25,5 +25,3 @@ function generateHTMLSquares(){
 }
 
 var number = setInterval(generateHTMLSquares, 1000);
-
-//generateHTMLSquares();
